@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+}
+div{
+    color: #f0ffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: underline;
+    text-align: justify;
+    border-radius: 18px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-gap: 20px;
+}
+
+.ad{
+    padding-left: 30px;
+    padding-top: 85px;
+    background-color: #265a7c;
+}
+.be{
+    padding-left: 30px;
+    padding-top: 85px;
+    background-color: #76beee;
+}
+.cf{
+    padding-left: 30px;
+    padding-top: 85px;
+    background-color: #d86d20;
+}

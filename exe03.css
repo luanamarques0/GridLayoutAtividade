@@ -1,0 +1,72 @@
+body{
+    margin: 20px;
+}
+
+div{
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 150px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    grid-template-areas: 
+        "a d g j"
+        "b e h k"
+        "c f i l"
+    ;
+}
+
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+}
+.g{
+    grid-area: g;
+}
+.h{
+    grid-area: h;
+}
+.i{
+    grid-area: i;
+}
+.j{
+    grid-area: j;
+}
+.k{
+    grid-area: k;
+}
+.l{
+    grid-area: l;
+}
+
+.a, .c, .e, .g, .i, .k{
+    background-color: #1c4561;
+    color: #d5edfd;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.b, .d, .f, .h, .j, .l{
+    background-color: #d5edfd;
+    color: #1c4561;
+    padding-left: 20px;
+    padding-top: 50px;
+}
